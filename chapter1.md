@@ -1,19 +1,21 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Introducao
+description : Conceitos, Representacao, Paradigmas, Complexidade e Eficiencia
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:80a6b32d1e
-## A really bad movie
+## Algoritmos
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+Os computadores estão mais rapidos, mas isso nao é o suficiente para resolver qualquer problema.
+
+Para resolver problemas relacionados à, por exemplo, ordenação, identificação de genes, busca na internet, comércio eletronico e escalonamento, os algoritmos são importantes. Mas, o que é um algoritmo? (Escolha a melhor alternativa)
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- É uma sequencia de instruções para executar uma tarefa.
+- É a descrição de um padrão de comportamento expresso em termos de uma sequencia finita de instruções bem definidas e não ambíguas para executar uma tarefa com uma quantidade de esforço finita e executável em um período de tempo finito para resolver um problema.
+- É um modo particular de armanenar ou organizar dados para facilitar o acesso e modificações.
+- É uma notação matemática para analisar o comportamento de funções utilizada para descrever o uso de recursos computacionais.
 
 *** =hint
 Have a look at the plot. Do you see a trend in the dots?
@@ -40,6 +42,7 @@ msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
+
 
 --- type:NormalExercise lang:python xp:100 skills:1 key:bb15fbe0bb
 ## Plot the movies yourself
